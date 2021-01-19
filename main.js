@@ -27,6 +27,7 @@ savjeeCoin.addTransaction(tx2);
 // Mine block
 savjeeCoin.minePendingTransactions(myWalletAddress);
 
+console.log(JSON.stringify(savjeeCoin, null, 4));
 console.log();
 console.log(`Balance of xavier is ${savjeeCoin.getBalanceOfAddress(myWalletAddress)}`);
 
